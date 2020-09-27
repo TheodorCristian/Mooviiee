@@ -16,7 +16,7 @@ inputValue: (movie) => {
 },
 // Searching for the results making a http request to the api with the info typed into the input
 async fetchData (search) {
-        const response = await axios.get('http://www.omdbapi.com/', {
+        const response = await axios.get('https://www.omdbapi.com/', {
             params: {
                 apikey: 'a8904b4c',
                 s: search
